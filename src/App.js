@@ -22,6 +22,8 @@ import {
   HiOutlineBookOpen,
 } from "react-icons/hi";
 import { SiZomato } from "react-icons/si";
+import { FaMoneyCheckAlt } from 'react-icons/fa';
+import { MdAttachMoney } from 'react-icons/md';
 
 function App() {
   return (
@@ -142,6 +144,26 @@ function App() {
           </div>
         </div>
 
+        <div className="grocery-container w-[90%] h-fit rounded-lg flex flex-col bg-white py-2 gap-2">
+          <div className="title flex flex-row gap-2">
+            <div className="bar w-[2px] h-[14px] bg-red-500 rounded-r-full"></div>
+            <div className="text text-[10px] tbold">Account</div>
+          </div>
+          <div className="options px-2 flex flex-col gap-3">
+            <div className="option flex flex-row items-center gap-2">
+              <div className="icon">
+                <MdAttachMoney className="text-[20px] bg-gray-100 p-[5px] rounded-full" />
+              </div>
+              <div className="text text-[10px]">Balance</div>
+            </div>
+            <div className="option flex flex-row items-center gap-2">
+              <div className="icon">
+                <FaMoneyCheckAlt className="text-[20px] bg-gray-100 p-[5px] rounded-full" />
+              </div>
+              <div className="text text-[10px]">Vouchers</div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
