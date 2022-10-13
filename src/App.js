@@ -22,6 +22,7 @@ import {
   HiOutlineBookOpen,
 } from "react-icons/hi";
 import { SiZomato } from "react-icons/si";
+import {IoLogOutOutline} from 'react-icons/io5';
 
 function App() {
   return (
@@ -137,6 +138,12 @@ function App() {
                 <HiOutlineChatAlt className="text-[20px] bg-gray-100 p-[5px] rounded-full" />
               </div>
               <div className="text text-[10px]">Grocery ordering help</div>
+            </div>
+            <div className="option flex flex-row items-center gap-2">
+              <div className="icon">
+                <IoLogOutOutline className="text-[20px] bg-gray-100 p-[5px] rounded-full" />
+              </div>
+              <div className="text text-[10px]">Logout</div>
             </div>
           </div>
         </div>
