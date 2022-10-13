@@ -54,11 +54,11 @@ function App() {
           </div>
           <div className="like-box w-[83px] h-[50px] rounded-md bg-white flex flex-col items-center justify-center gap-2">
             <BsCreditCard className="m-0" />
-            <p>Likes</p>
+            <p>Payments</p>
           </div>
           <div className="like-box w-[83px] h-[50px] rounded-md bg-white flex flex-col items-center justify-center gap-2">
             <FiSettings className="m-0" />
-            <p>Likes</p>
+            <p>Settings</p>
           </div>
         </div>
         <div className="rating-container w-[90%] h-[40px] rounded-lg flex flex-row px-3 py-2 gap-3 items-center bg-[#FFF]">
