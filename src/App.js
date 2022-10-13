@@ -64,10 +64,9 @@ function App() {
         <div className="rating-container w-[90%] h-[40px] rounded-lg flex flex-row px-3 py-2 gap-3 items-center bg-[#FFF]">
           <AiOutlineStar className="text-[20px] bg-gray-100 p-[5px] rounded-full" />
           <p className="text-[9px] pt-[1px]">Your rating</p>
-          <p className="bg-gray-100 flex flex-row px-2 py-1 ml-20 text-[7px] rounded-md font-bold">
+          <p className="bg-gray-100 flex flex-row px-2 py-1 ml-24 text-[7px] rounded-md font-bold">
             4.77 &nbsp;⭐️
           </p>
-          <IoIosArrowForward className="text-xs" />
         </div>
         <div className="zomaland-container w-[90%] h-fit rounded-lg flex flex-col bg-white py-2 gap-2">
           <div className="title flex flex-row gap-2">
@@ -141,8 +140,8 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="zomato-logo">
-          Zomato
+        <div className="zomato-logo text-5xl">
+          <SiZomato />
         </div>
       </div>
     </div>
