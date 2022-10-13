@@ -1,15 +1,10 @@
 import "./App.css";
 import {
   IoIosArrowBack,
-  IoIosArrowDropright,
-  IoIosArrowForward,
-  IoMdArrowForward,
 } from "react-icons/io";
-import { BiArrowToRight, BiBell } from "react-icons/bi";
+import { BiBell } from "react-icons/bi";
 import {
-  BsChatRightText,
   BsCreditCard,
-  BsFillChatRightTextFill,
 } from "react-icons/bs";
 import profilePicture from "./dp.png";
 import { AiOutlineHeart, AiOutlineStar } from "react-icons/ai";
